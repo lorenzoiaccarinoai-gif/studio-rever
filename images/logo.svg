@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" role="img" aria-label="Rever">
+  <text x="168" y="148" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="92" font-weight="500" fill="#161616" letter-spacing="6">RE</text>
+  <g fill="none" stroke="#7A8A4E" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M24 46 H338" stroke-width="3"/>
+    <path d="M522 46 H836" stroke-width="3"/>
+    <path d="M24 38 V54" stroke-width="3"/>
+    <path d="M836 38 V54" stroke-width="3"/>
+    <path d="M338 46 L430 176 L522 46" stroke-width="16"/>
+    <path d="M430 92 V176" stroke-width="2.4"/>
+    <path d="M430 176 L416 196" stroke-width="2.4"/>
+    <path d="M430 176 L444 196" stroke-width="2.4"/>
+  </g>
+  <circle cx="430" cy="86" r="11" fill="#7A8A4E"/>
+  <g transform="translate(692 148) scale(-1 1)">
+    <text text-anchor="end" font-family="Times New Roman, Times, serif" font-size="92" font-weight="500" fill="#161616" letter-spacing="6">RE</text>
+  </g>
+</svg>
