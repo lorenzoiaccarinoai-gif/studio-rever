@@ -131,9 +131,7 @@ button { font: inherit; cursor: pointer; background: none; border: 0; }
   justify-content: center;
   text-align: center;
   padding: 7rem 20px 4rem;
-  background:
-    linear-gradient(180deg, rgba(244,241,234,0.88) 0%, rgba(244,241,234,0.55) 45%, rgba(26,26,26,0.35) 100%),
-    url("../images/studio.jpg") center 60% / cover no-repeat;
+  background: #fff;
   color: var(--ink);
 }
 .hero-logo { width: min(460px, 86vw); height: auto; margin-bottom: 1.4rem; }
