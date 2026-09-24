@@ -1,16 +1,17 @@
 # Studio Rever
 
-Sito boutique per Studio Rever — personal training e formazione certificata CONI.
+Sito boutique — personal training e formazione certificata CONI.
 
-Repo: https://github.com/lorenzoiaccarinoai-gif/studio-rever
+https://github.com/lorenzoiaccarinoai-gif/studio-rever
+
+## Palette
+- Oliva logo `#757B5A`
+- Lime pareti `#9AA35C`
+- Nero pedana `#1A1A1A`
+- Crema `#F4F1EA`
+- Legno `#B6B09A`
 
 ## Header
-- Logo REVER (V = braccia in trazione)
-- Testo: Studio Personal Training
-- Sezioni: Formazione CONI, Lo Studio, L'Equipe, Approfondimenti
-- CTA Contattaci → WhatsApp
+Logo REVER + Studio Personal Training + sezioni + CTA WhatsApp.
 
-## Da sostituire
-In `index.html` aggiorna il numero in `https://wa.me/39XXXXXXXXXX`.
-
-Loghi e foto studio: da inserire in `images/` quando disponibili.
+Sostituire `39XXXXXXXXXX` in `index.html`.
