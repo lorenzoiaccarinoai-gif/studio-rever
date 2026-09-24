@@ -5,8 +5,7 @@ Sito boutique — personal training e formazione certificata CONI.
 https://github.com/lorenzoiaccarinoai-gif/studio-rever
 
 ## Palette
-- Oliva logo `#757B5A`
-- Lime pareti `#9AA35C`
+- Oliva / lime pareti `#939458`
 - Nero pedana `#1A1A1A`
 - Crema `#F4F1EA`
 - Legno `#B6B09A`

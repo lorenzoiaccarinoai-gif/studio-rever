@@ -1,6 +1,6 @@
 :root {
-  --olive: #757b5a;
-  --lime: #9aa35c;
+  --olive: #939458;
+  --lime: #a8b05a;
   --ink: #161616;
   --floor: #1a1a1a;
   --muted: #5a5a52;
@@ -48,20 +48,13 @@ button { font: inherit; cursor: pointer; background: none; border: 0; }
   display: block;
 }
 .brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-.brand-text strong {
   font-family: "Cormorant Garamond", serif;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-weight: 500;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
   color: var(--ink);
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -76,7 +69,7 @@ button { font: inherit; cursor: pointer; background: none; border: 0; }
   letter-spacing: 0.04em;
   border-radius: 999px;
 }
-.nav-links a:hover { background: rgba(154, 163, 92, 0.18); color: var(--olive); }
+.nav-links a:hover { background: rgba(168, 176, 90, 0.22); color: var(--olive); }
 
 .nav-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
 .nav-links + .nav-actions { margin-left: 0; }
