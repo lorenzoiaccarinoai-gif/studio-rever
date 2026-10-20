@@ -14,7 +14,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--cream);
   color: var(--ink);
   line-height: 1.5;
@@ -48,7 +48,7 @@ button { font: inherit; cursor: pointer; background: none; border: 0; }
   display: block;
 }
 .brand-text {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.92rem;
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -143,7 +143,7 @@ button { font: inherit; cursor: pointer; background: none; border: 0; }
   margin-bottom: 0.6rem;
 }
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: clamp(2rem, 5vw, 3.2rem);
 }
@@ -165,7 +165,7 @@ h1 {
 .formazione { padding: 5rem 20px 4rem; background: var(--white); }
 .formazione .container { max-width: 900px; margin: 0 auto; }
 .formazione h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: clamp(2rem, 4vw, 2.8rem);
   margin: 0.4rem 0 0.8rem;
@@ -181,3 +181,24 @@ h1 {
   line-height: 1.55;
 }
 .formazione .punti strong { color: var(--black); }
+
+/* Pagina formazione */
+.page-hero { padding: 7rem 20px 3rem; text-align: center; background: var(--white); }
+.page-hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; letter-spacing: -0.02em; }
+.programma { padding: 2rem 20px 5rem; background: var(--cream); }
+.programma .container { max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 2.5rem; }
+.modulo { background: var(--white); border: 1px solid var(--line); border-radius: 1.2rem; padding: 1.6rem 1.6rem 1.8rem; }
+.modulo header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.4rem; flex-wrap: wrap; }
+.modulo .ore { background: var(--brown); color: var(--white); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+.modulo h2 { font-size: 1.45rem; font-weight: 700; letter-spacing: -0.01em; }
+.rami { display: grid; grid-template-columns: 1fr; gap: 1.2rem; }
+@media (min-width: 720px) { .rami { grid-template-columns: 1fr 1fr; } }
+.ramo { background: var(--cream); padding: 1rem 1.1rem; border-radius: 0.8rem; border-left: 3px solid var(--brown); }
+.ramo h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--black); }
+.ramo ul { padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.35rem; }
+.ramo li { font-size: 0.92rem; line-height: 1.45; color: var(--ink); }
+.teaser { padding: 4rem 20px; text-align: center; background: var(--white); }
+.teaser .container { max-width: 720px; margin: 0 auto; }
+.teaser h2 { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 700; margin: 0.4rem 0 0.8rem; }
+.teaser .lead { margin-bottom: 1.6rem; }
+.nav-links a.active { background: rgba(196, 164, 132, 0.25); color: var(--brown); font-weight: 600; }
