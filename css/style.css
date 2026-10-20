@@ -191,6 +191,7 @@ h1 {
 .modulo header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.4rem; flex-wrap: wrap; }
 .modulo .ore { background: var(--brown); color: var(--white); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
 .modulo h2 { font-size: 1.45rem; font-weight: 700; letter-spacing: -0.01em; }
+
 .rami {
   display: grid;
   grid-template-columns: 1fr;
@@ -199,18 +200,8 @@ h1 {
 @media (min-width: 720px) {
   .rami { grid-template-columns: 1fr 1fr; }
   .rami-3 { grid-template-columns: 1fr 1fr; }
-  .rami-3 .ramo:last-child { grid-column: 1 / -1; max-width: 640px; margin-inline: auto; }
+  .rami-3 .ramo:last-child { grid-column: 1 / -1; }
 }
-@media (min-width: 720px) { .rami {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-}
-@media (min-width: 720px) {
-  .rami { grid-template-columns: 1fr 1fr; }
-  .rami-3 { grid-template-columns: 1fr 1fr; }
-  .rami-3 .ramo:last-child { grid-column: 1 / -1; max-width: 640px; margin-inline: auto; }
-} }
 .ramo {
   background: #fff;
   padding: 1.25rem 1.35rem 1.3rem;
@@ -245,4 +236,6 @@ h1 {
 .teaser h2 { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 700; margin: 0.4rem 0 0.8rem; }
 .teaser .lead { margin-bottom: 1.6rem; }
 .nav-links a.active { background: rgba(196, 164, 132, 0.25); color: var(--brown); font-weight: 600; }
+
+
 
