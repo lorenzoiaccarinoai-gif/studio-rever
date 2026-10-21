@@ -331,3 +331,23 @@ h1 {
   margin-right: 0.25em;
   vertical-align: middle;
 }
+
+/* SVG icons consistent across OS */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--brown);
+}
+.ore .icon {
+  width: 1.15em;
+  height: 1.15em;
+  margin-right: 0.3em;
+  vertical-align: -0.15em;
+}
+.cv-list .icon {
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0.1rem;
+}
