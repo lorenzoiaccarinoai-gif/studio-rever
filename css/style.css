@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --white: #ffffff;
   --brown: #c4a484;
   --brown-light: #e8d5c4;
@@ -234,6 +234,29 @@ h1 {
 .teaser .lead { margin-bottom: 1.6rem; }
 .nav-links a.active { background: rgba(196, 164, 132, 0.25); color: var(--brown); font-weight: 600; }
 
-
-
-
+/* Pagina equipe */
+.equipe { padding: 2rem 20px 5rem; background: var(--cream); }
+.equipe .container { max-width: 900px; margin: 0 auto; }
+.member {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 1.2rem;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.member img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+}
+.member-info h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.3rem; }
+.member .role { color: var(--brown); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.85rem; margin-bottom: 1rem; }
+.member-info p { margin-bottom: 0.8rem; color: var(--ink); }
+@media (max-width: 680px) {
+  .member { flex-direction: column; align-items: center; text-align: center; }
+}
