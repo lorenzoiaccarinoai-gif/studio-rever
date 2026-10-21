@@ -325,29 +325,28 @@ h1 {
   .cv-list li { justify-content: center; text-align: left; }
 }
 
-/* Icone nelle etichette ore */
-.ore .icon {
-  font-size: 0.85em;
-  margin-right: 0.25em;
-  vertical-align: middle;
-}
-
 /* SVG icons consistent across OS */
 .icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+}
+.cv-list .icon {
+  width: 1.25em;
+  height: 1.25em;
   color: var(--brown);
+  margin-top: 0.08rem;
+}
+.ore {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
 }
 .ore .icon {
   width: 1.15em;
   height: 1.15em;
-  margin-right: 0.3em;
-  vertical-align: -0.15em;
-}
-.cv-list .icon {
-  width: 1.2em;
-  height: 1.2em;
-  margin-top: 0.1rem;
+  color: #fff;
+  stroke: #fff;
+  flex-shrink: 0;
 }
