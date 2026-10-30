@@ -366,3 +366,16 @@ h1 {
 .member-owner .member-intro { font-size: 1.05rem; line-height: 1.65; }
 .member-owner .cv-list { margin-top: 1.4rem; }
 .member-owner .eyebrow { color: var(--muted); font-size: 0.7rem; }
+
+/* Logo originale, inquadrato senza alterarne il disegno. */
+.brand-logo, .hero-logo { position: relative; overflow: hidden; display: block; aspect-ratio: 3.7 / 1; }
+.brand-logo { width: 96px; height: auto; }
+.hero-logo { width: min(420px, 80vw); height: auto; }
+.brand-logo img, .hero-logo img { position: absolute; width: 150%; max-width: none; height: auto; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.modulo .ore { width: 30px; height: 30px; padding: 0; justify-content: center; border-radius: 50%; }
+.member .matteo-portrait { object-position: 50% 39%; }
+@media (min-width: 980px) { .brand-logo { width: 118px; height: auto; } }
+
+.portrait-frame { display: block; width: 160px; height: 160px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 1px solid var(--line); }
+.member .portrait-frame img { display: block; width: 100%; height: 100%; border: 0; border-radius: 0; transform: scale(1.7); transform-origin: 50% 43%; }
+@media (min-width: 481px) and (max-width: 680px) { .portrait-frame { width: 180px; height: 180px; margin-bottom: 0.5rem; } }
