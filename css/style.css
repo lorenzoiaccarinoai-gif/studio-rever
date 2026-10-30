@@ -357,3 +357,12 @@ h1 {
   stroke: #fff;
   flex-shrink: 0;
 }
+
+/* Il titolare apre la pagina con un profilo più ampio. */
+.equipe .container { display: flex; flex-direction: column; gap: 2rem; }
+.member-info { min-width: 0; }
+.member-owner { border-top: 4px solid var(--brown); padding: clamp(1.4rem, 4vw, 2.5rem); }
+.member-owner .member-info h2 { font-size: clamp(1.6rem, 4vw, 2.1rem); }
+.member-owner .member-intro { font-size: 1.05rem; line-height: 1.65; }
+.member-owner .cv-list { margin-top: 1.4rem; }
+.member-owner .eyebrow { color: var(--muted); font-size: 0.7rem; }
