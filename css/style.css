@@ -384,3 +384,9 @@ h1 {
 .modulo-plus { border-top: 4px solid var(--brown); }
 .modulo .ore-plus { width: auto; height: auto; padding: 4px 10px; border-radius: 999px; }
 .modulo-plus .ramo p { font-size: 0.88rem; line-height: 1.55; }
+
+.download-programma { margin-top: 1.2rem; }
+.modulo-plus { background: #f3e9df; border: 1px solid #d5bca4; border-top: 5px solid var(--brown); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: 0 8px 26px rgba(100, 73, 49, 0.09); }
+.modulo-plus h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); }
+.modulo-plus .ore-plus { background: #806246; }
+.plus-eyebrow { color: #6a4d34; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
