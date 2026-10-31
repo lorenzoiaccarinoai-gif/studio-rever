@@ -413,3 +413,16 @@ h1 {
 .chapter-list li { padding-left: 0.1rem; font-size: 0.95rem; line-height: 1.5; }
 @media (min-width: 720px) { .programma .container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1180px) { .nav-links a { padding: 8px 7px; font-size: 0.8rem; } }
+
+/* I sei argomenti restano sulla stessa riga. */
+.programma .container { display: flex; max-width: 1500px; }
+.chapter-scroll { width: 100%; min-width: 0; overflow-x: auto; padding: 2px 0 12px; }
+.chapter-scroll:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 3px; }
+.chapter-cards { display: grid; grid-template-columns: repeat(6, minmax(210px, 1fr)); gap: 1rem; align-items: stretch; }
+.chapter-cards .modulo { min-width: 0; }
+.chapter-cards .modulo h2 { font-size: 1.05rem; line-height: 1.35; overflow-wrap: anywhere; }
+.chapter-cards .chapter-list li { font-size: 0.85rem; }
+@media (min-width: 1280px) { .chapter-cards { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+.chapter-scroll-hint { color: var(--muted); font-size: 0.8rem; margin-bottom: -1.25rem; }
+@media (min-width: 1280px) { .chapter-scroll-hint { display: none; } }
