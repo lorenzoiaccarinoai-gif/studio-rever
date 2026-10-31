@@ -1,6 +1,8 @@
 :root {
   --white: #ffffff;
   --brown: #c4a484;
+  --burgundy: #702b3a;
+  --burgundy-dark: #4f1b27;
   --brown-light: #e8d5c4;
   --black: #111111;
   --ink: #111111;
@@ -93,14 +95,14 @@ img { max-width: 100%; height: auto; }
   justify-content: center;
   padding: 9px 14px;
   border-radius: 999px;
-  background: var(--brown);
+  background: var(--burgundy);
   color: #fff;
   font-size: 0.78rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap;
 }
-.cta:hover { background: var(--black); }
+.cta:hover { background: var(--burgundy-dark); }
 
 .nav-toggle {
   width: 38px;
@@ -383,10 +385,12 @@ h1 {
 
 .modulo-plus { border-top: 4px solid var(--brown); }
 .modulo .ore-plus { width: auto; height: auto; padding: 4px 10px; border-radius: 999px; }
+.modulo-plus .ramo { color: var(--ink); }
 .modulo-plus .ramo p { font-size: 0.88rem; line-height: 1.55; }
 
 .download-programma { margin-top: 1.2rem; }
-.modulo-plus { background: #f3e9df; border: 1px solid #d5bca4; border-top: 5px solid var(--brown); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: 0 8px 26px rgba(100, 73, 49, 0.09); }
+.modulo-plus { background: var(--burgundy); color: var(--white); border: 1px solid var(--burgundy-dark); border-top: 5px solid var(--brown); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: 0 8px 26px rgba(100, 73, 49, 0.09); }
 .modulo-plus h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); }
-.modulo-plus .ore-plus { background: #806246; }
-.plus-eyebrow { color: #6a4d34; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
+.modulo-plus .ore-plus { background: #f3e9df; color: var(--burgundy-dark); }
+.modulo-plus .ore-plus .icon { color: var(--burgundy-dark); stroke: currentColor; }
+.plus-eyebrow { color: #f3e9df; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
