@@ -394,12 +394,8 @@ h1 {
 .modulo-plus .ore-plus .icon { color: var(--black); stroke: currentColor; }
 .plus-eyebrow { color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
 
-/* Hero: immagine, leggera sfocatura e velo scuro per la leggibilità. */
-.hero { position: relative; isolation: isolate; overflow: hidden; min-height: 0; aspect-ratio: 1189 / 1323; background: #111; color: var(--white); }
-.hero::before, .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: -1; }
-.hero::before { background: url("../images/reverstudio-hero.png") center / 100% 100% no-repeat; filter: blur(2px); }
-.hero::after { background: rgba(0, 0, 0, 0.55); }
-.hero .eyebrow { color: #fff; }
-.hero-logo img { filter: invert(1); mix-blend-mode: screen; }
-
-.hero-content { position: absolute; top: calc(min(50%, 40vh) - 90px); left: 0; width: 100%; padding: 0 16px; display: flex; flex-direction: column; align-items: center; }
+/* Foto dello studio sotto la hero. */
+.hero-content { display: flex; flex-direction: column; align-items: center; }
+.hero-photo { position: relative; width: min(840px, 92vw); margin: 0 auto 3rem; overflow: hidden; border-radius: 1rem; background: var(--black); }
+.hero-photo img { display: block; width: 100%; height: auto; filter: blur(2px); }
+.hero-photo::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.55); pointer-events: none; }
