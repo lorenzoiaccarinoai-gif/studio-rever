@@ -414,15 +414,19 @@ h1 {
 @media (min-width: 720px) { .programma .container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1180px) { .nav-links a { padding: 8px 7px; font-size: 0.8rem; } }
 
-/* I sei argomenti restano sulla stessa riga. */
-.programma .container { display: flex; max-width: 1500px; }
-.chapter-scroll { width: 100%; min-width: 0; overflow-x: auto; padding: 2px 0 12px; }
-.chapter-scroll:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 3px; }
-.chapter-cards { display: grid; grid-template-columns: repeat(6, minmax(210px, 1fr)); gap: 1rem; align-items: stretch; }
+/* Sei card in due file da tre, adattate agli schermi piccoli. */
+.programma .container { display: flex; max-width: 1200px; }
+.chapter-cards { display: grid; width: 100%; grid-template-columns: 1fr; gap: 1rem; align-items: stretch; }
 .chapter-cards .modulo { min-width: 0; }
-.chapter-cards .modulo h2 { font-size: 1.05rem; line-height: 1.35; overflow-wrap: anywhere; }
-.chapter-cards .chapter-list li { font-size: 0.85rem; }
-@media (min-width: 1280px) { .chapter-cards { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+@media (min-width: 600px) { .chapter-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 980px) { .chapter-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
-.chapter-scroll-hint { color: var(--muted); font-size: 0.8rem; margin-bottom: -1.25rem; }
-@media (min-width: 1280px) { .chapter-scroll-hint { display: none; } }
+/* Collegamento al profilo del formatore. */
+.course-trainer { display: flex; width: fit-content; align-items: center; gap: 0.65rem; margin: 1.2rem auto 0; text-align: left; border-radius: 999px; }
+.course-trainer img { width: 48px; height: 48px; object-fit: cover; object-position: 50% 35%; border-radius: 50%; border: 1px solid var(--line); }
+.course-trainer span { display: block; }
+.course-trainer-label { color: var(--muted); font-size: 0.72rem; }
+.course-trainer strong { display: block; font-size: 0.88rem; }
+.course-trainer:hover strong { color: var(--burgundy); text-decoration: underline; }
+.course-trainer:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
+#matteo-name { scroll-margin-top: 5rem; }
