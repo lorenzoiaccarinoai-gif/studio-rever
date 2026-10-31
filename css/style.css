@@ -395,9 +395,11 @@ h1 {
 .plus-eyebrow { color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
 
 /* Hero: immagine, leggera sfocatura e velo scuro per la leggibilità. */
-.hero { position: relative; isolation: isolate; overflow: hidden; background: #111; color: var(--white); }
+.hero { position: relative; isolation: isolate; overflow: hidden; min-height: 0; aspect-ratio: 1189 / 1323; background: #111; color: var(--white); }
 .hero::before, .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: -1; }
-.hero::before { background: url("../images/reverstudio-hero.png") center 48% / cover no-repeat; filter: blur(2px); transform: scale(1.02); }
+.hero::before { background: url("../images/reverstudio-hero.png") center / 100% 100% no-repeat; filter: blur(2px); }
 .hero::after { background: rgba(0, 0, 0, 0.55); }
 .hero .eyebrow { color: #fff; }
 .hero-logo img { filter: invert(1); mix-blend-mode: screen; }
+
+.hero-content { position: absolute; top: calc(min(50%, 40vh) - 90px); left: 0; width: 100%; padding: 0 16px; display: flex; flex-direction: column; align-items: center; }
