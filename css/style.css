@@ -392,4 +392,4 @@ h1 {
 .modulo-plus h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); }
 .modulo-plus .ore-plus { background: var(--white); color: var(--black); }
 .modulo-plus .ore-plus .icon { color: var(--black); stroke: currentColor; }
-.plus-eyebrow { color: #f3e9df; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
+.plus-eyebrow { color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
