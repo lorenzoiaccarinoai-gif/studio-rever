@@ -173,7 +173,7 @@ h1 {
   border: 1px solid var(--line);
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1180px) {
   .nav-links { display: flex; }
   .nav-toggle { display: none; }
   .brand-logo { height: 32px; }
@@ -405,3 +405,11 @@ h1 {
 .programma .modulo:not(.modulo-plus) .ramo { grid-column: auto; }
 .programma .modulo:not(.modulo-plus) .ramo h3 { margin-bottom: 0; }
 .service-section { scroll-margin-top: 5rem; }
+
+/* Le card del corso si affiancano sui display ampi. */
+.programma .container { display: grid; grid-template-columns: 1fr; align-items: start; }
+.programma .modulo-plus { grid-column: 1 / -1; }
+.chapter-list { padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.65rem; }
+.chapter-list li { padding-left: 0.1rem; font-size: 0.95rem; line-height: 1.5; }
+@media (min-width: 720px) { .programma .container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1180px) { .nav-links a { padding: 8px 7px; font-size: 0.8rem; } }
