@@ -399,3 +399,9 @@ h1 {
 .hero-photo { position: relative; width: min(840px, 92vw); margin: 0 auto 3rem; overflow: hidden; border-radius: 1rem; background: var(--black); }
 .hero-photo img { display: block; width: 100%; height: auto; filter: blur(2px); }
 .hero-photo::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.55); pointer-events: none; }
+
+/* Capitoli del programma, in sequenza verticale. */
+.programma .modulo:not(.modulo-plus) .rami { grid-template-columns: 1fr; }
+.programma .modulo:not(.modulo-plus) .ramo { grid-column: auto; }
+.programma .modulo:not(.modulo-plus) .ramo h3 { margin-bottom: 0; }
+.service-section { scroll-margin-top: 5rem; }
