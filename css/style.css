@@ -383,14 +383,13 @@ h1 {
 .member .marinoni-frame img { display: block; width: 100%; height: 100%; border: 0; border-radius: 0; transform: scale(1.2); transform-origin: 50% 0%; }
 @media (min-width: 481px) and (max-width: 680px) { .marinoni-frame { width: 180px; height: 180px; margin-bottom: 0.5rem; } }
 
-.modulo-plus { border-top: 4px solid var(--brown); }
 .modulo .ore-plus { width: auto; height: auto; padding: 4px 10px; border-radius: 999px; }
 .modulo-plus .ramo { color: var(--ink); }
 .modulo-plus .ramo p { font-size: 0.88rem; line-height: 1.55; }
 
 .download-programma { margin-top: 1.2rem; }
-.modulo-plus { background: var(--burgundy); color: var(--white); border: 1px solid var(--burgundy-dark); border-top: 5px solid var(--brown); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: 0 8px 26px rgba(100, 73, 49, 0.09); }
+.modulo-plus { background: var(--black); color: var(--white); border: 1px solid var(--black); padding: clamp(1.5rem, 3vw, 2rem); box-shadow: 0 8px 26px rgba(100, 73, 49, 0.09); }
 .modulo-plus h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); }
-.modulo-plus .ore-plus { background: #f3e9df; color: var(--burgundy-dark); }
-.modulo-plus .ore-plus .icon { color: var(--burgundy-dark); stroke: currentColor; }
+.modulo-plus .ore-plus { background: var(--white); color: var(--black); }
+.modulo-plus .ore-plus .icon { color: var(--black); stroke: currentColor; }
 .plus-eyebrow { color: #f3e9df; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
