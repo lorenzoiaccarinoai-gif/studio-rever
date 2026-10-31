@@ -430,3 +430,43 @@ h1 {
 .course-trainer:hover strong { color: var(--burgundy); text-decoration: underline; }
 .course-trainer:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
 #matteo-name { scroll-margin-top: 5rem; }
+
+/* Pagina personal training */
+.training-page { background: var(--cream); }
+.training-intro { max-width: 1440px; margin: 0 auto; padding: clamp(2rem, 5vw, 5rem) clamp(1rem, 4vw, 4rem); display: grid; grid-template-columns: 1fr 0.9fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.training-intro-copy { max-width: 660px; }
+.training-intro h1 { font-size: clamp(2.7rem, 5.5vw, 5.2rem); font-weight: 700; letter-spacing: -0.045em; line-height: 1.05; }
+.training-intro h1 span { display: block; color: var(--ink); }
+.training-lead { margin-top: 1.5rem; max-width: 36rem; font-size: clamp(1rem, 1.4vw, 1.15rem); line-height: 1.7; color: var(--muted); }
+.training-coach { display: inline-flex; align-items: center; gap: 0.9rem; margin-top: 2rem; padding: 0.55rem 1.1rem 0.55rem 0.55rem; border: 1px solid var(--line); border-radius: 999px; background: var(--white); }
+.training-coach img { width: 58px; height: 58px; border-radius: 50%; object-fit: cover; object-position: 50% 35%; }
+.training-coach small, .training-coach strong, .training-link { display: block; }
+.training-coach small { color: var(--muted); font-size: 0.7rem; }
+.training-coach strong { font-size: 0.88rem; }
+.training-link, .training-profile-link { color: var(--burgundy); font-size: 0.78rem; font-weight: 600; }
+.training-coach:hover .training-link, .training-profile-link:hover { text-decoration: underline; }
+.training-coach:focus-visible, .training-profile-link:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
+.training-photo { border-radius: 1.3rem; overflow: hidden; background: #e8d5c4; }
+.training-photo img { display: block; width: 100%; height: auto; }
+.training-method { padding: clamp(3.5rem, 6vw, 6rem) 1rem; background: var(--white); }
+.training-container { max-width: 1200px; margin: 0 auto; }
+.training-section-heading { max-width: 730px; margin-bottom: 2rem; }
+.training-section-heading h2, .training-details h2 { font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -0.035em; line-height: 1.1; }
+.training-section-heading > p:last-child { color: var(--muted); margin-top: 1rem; line-height: 1.7; }
+.training-disciplines { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.training-disciplines article { border: 1px solid var(--line); border-radius: 1rem; background: var(--cream); padding: clamp(1.3rem, 2.5vw, 2rem); min-height: 235px; }
+.training-number { display: block; color: var(--brown); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; margin-bottom: 2rem; }
+.training-disciplines h3 { font-size: clamp(1.1rem, 1.7vw, 1.35rem); line-height: 1.25; margin-bottom: 0.8rem; }
+.training-disciplines p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
+.training-details { padding: clamp(3.5rem, 6vw, 6rem) 1rem; }
+.training-details-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 6rem); }
+.training-details-layout > div:last-child p { color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
+.training-profile-link { display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; }
+@media (max-width: 720px) {
+  .training-intro, .training-details-layout { grid-template-columns: 1fr; }
+  .training-intro { padding-top: 3.5rem; }
+  .training-photo { max-width: 540px; }
+  .training-disciplines { grid-template-columns: 1fr; }
+  .training-disciplines article { min-height: 0; }
+  .training-number { margin-bottom: 1.2rem; }
+}
