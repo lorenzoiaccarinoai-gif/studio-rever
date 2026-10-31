@@ -470,3 +470,36 @@ h1 {
   .training-disciplines article { min-height: 0; }
   .training-number { margin-bottom: 1.2rem; }
 }
+
+/* Pagina certificazione: gerarchia visiva condivisa con Training. */
+.cert-page { background: var(--cream); }
+.cert-intro { max-width: 1440px; margin: 0 auto; padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 4rem); display: grid; grid-template-columns: 1fr 0.9fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.cert-intro-copy { max-width: 660px; }
+.cert-intro h1 { font-size: clamp(2.7rem, 5.5vw, 5.2rem); font-weight: 700; letter-spacing: -0.045em; line-height: 1.05; }
+.cert-intro h1 span { display: block; }
+.cert-lead { margin-top: 1.5rem; max-width: 36rem; font-size: clamp(1rem, 1.4vw, 1.15rem); line-height: 1.7; color: var(--muted); }
+.cert-intro .training-coach { margin-top: 1.7rem; }
+.cert-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; margin-top: 1.7rem; }
+.cert-actions .cta { white-space: normal; text-align: center; }
+.cert-program-link { color: var(--burgundy); font-size: 0.85rem; font-weight: 600; }
+.cert-program-link:hover { text-decoration: underline; }
+.cert-program-link:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
+.cert-cover { min-height: 490px; border-radius: 1.3rem; padding: clamp(1.5rem, 3vw, 2.5rem); background: #e8d5c4; display: flex; flex-direction: column; justify-content: space-between; }
+.cert-cover-kicker, .cert-cover-footer { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.7rem; font-weight: 700; }
+.cert-cover-main { padding: 2rem 0; }
+.cert-cover-main > span { display: block; font-size: 1rem; letter-spacing: 0.2em; font-weight: 600; }
+.cert-cover-main strong { display: block; font-size: clamp(6rem, 11vw, 10rem); letter-spacing: -0.08em; line-height: 0.9; font-weight: 700; }
+.cert-cover-main strong span { font-size: 0.38em; vertical-align: top; letter-spacing: 0; }
+.cert-cover-main p { margin-top: 1.2rem; font-size: 1.1rem; line-height: 1.4; }
+.cert-cover-footer { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid rgba(17,17,17,.25); padding-top: 1rem; }
+.cert-page .programma { padding: clamp(2rem, 4vw, 4rem) 1rem 5rem; scroll-margin-top: 5rem; }
+.cert-page .programma .container { gap: 2rem; }
+.cert-chapters-heading { max-width: 730px; margin-top: 1.5rem; }
+.cert-chapters-heading h2 { font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -0.035em; line-height: 1.1; }
+.cert-chapters-heading > p:last-child { color: var(--muted); margin-top: 1rem; line-height: 1.7; }
+.cert-page .chapter-cards .modulo { padding: clamp(1.3rem, 2.5vw, 2rem); }
+@media (max-width: 720px) {
+  .cert-intro { grid-template-columns: 1fr; padding-top: 3.5rem; }
+  .cert-cover { min-height: 350px; }
+  .cert-cover-main strong { font-size: clamp(6rem, 23vw, 8rem); }
+}
