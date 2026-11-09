@@ -460,6 +460,7 @@ h1 {
 .training-disciplines h3 { font-size: clamp(1.1rem, 1.7vw, 1.35rem); line-height: 1.25; margin-bottom: 0.8rem; }
 .training-disciplines p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
 .training-details { padding: clamp(3.5rem, 6vw, 6rem) 1rem; }
+.training-integrated { padding: clamp(1rem, 2vw, 2rem) 1rem clamp(3.5rem, 6vw, 6rem); }
 .training-details-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 6rem); }
 .training-details-layout > div:last-child p { color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
 .training-profile-link { display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; }
