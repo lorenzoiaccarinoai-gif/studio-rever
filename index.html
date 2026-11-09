@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Studio Rever — Personal Training</title>
-  <meta name="description" content="Studio Rever: personal training e formazione certificata CONI per trainer." />
+  <title>Studio Rever — Equipe multidisciplinare a Milano</title>
+  <meta name="description" content="Rever Studio a Milano: un’equipe multidisciplinare tra formazione certificata CONI, personal training e osteopatia." />
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +24,7 @@
         <a href="index.html#salute" hidden>Salute</a>
         <a href="index.html#beauty" hidden>Beauty</a>
         <a href="equipe.html">Equipe</a>
-        <a href="index.html#approfondimenti">Approfondimenti</a>
+        <a href="index.html#approfondimenti" hidden>Approfondimenti</a>
       </nav>
       <div class="nav-actions">
         <a class="cta" href="https://wa.me/39XXXXXXXXXX" target="_blank" rel="noopener">Contattaci</a>
@@ -40,36 +40,104 @@
       <a href="index.html#salute" hidden>Salute</a>
       <a href="index.html#beauty" hidden>Beauty</a>
       <a href="equipe.html">Equipe</a>
-      <a href="index.html#approfondimenti">Approfondimenti</a>
+      <a href="index.html#approfondimenti" hidden>Approfondimenti</a>
       <a class="cta" href="https://wa.me/39XXXXXXXXXX" target="_blank" rel="noopener">Contattaci</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-content">
-        <span class="hero-logo" role="img" aria-label="Rever"><img src="images/rever-wordmark.png" alt="" /></span>
-        <p class="eyebrow">Formazione certificata CONI</p>
-        <h1>Studio Personal Training</h1>
+  <main id="top" class="home">
+    <section class="home-hero">
+      <div class="home-hero-copy">
+        <p class="eyebrow">Studio multidisciplinare · Milano</p>
+        <h1>Un solo studio, <span>il tuo benessere a 360 gradi.</span></h1>
+        <p class="home-lead">Rever è un’equipe multidisciplinare: professionisti di ambiti diversi che lavorano insieme e ti seguono nel tuo percorso.</p>
+        <div class="home-actions">
+          <a class="cta" href="#aree">Scopri le aree</a>
+          <a class="home-secondary" href="equipe.html">Conosci l’equipe</a>
+        </div>
+      </div>
+      <figure class="home-hero-photo"><img src="images/reverstudio-hero.png" alt="Sala dello studio Rever" /></figure>
+    </section>
+
+    <section id="aree" class="home-section home-areas-section" aria-labelledby="aree-title">
+      <div class="home-container">
+        <div class="home-heading"><p class="eyebrow">Le nostre aree</p><h2 id="aree-title">Da dove vuoi iniziare?</h2></div>
+        <div class="home-doors">
+          <a id="formazione" class="home-door home-door-featured" href="formazione.html">
+            <span class="home-badge">Certificazione CONI</span>
+            <h3>Formazione</h3>
+            <p>Corso Personal Trainer 1° livello: costruisci la tua professione con un percorso certificato.</p>
+            <ul class="home-facts">
+              <li>6 aree di studio</li>
+              <li>+10 ore sul campo</li>
+              <li>Supporto post corso</li>
+            </ul>
+            <span class="home-more">Scopri il corso <span aria-hidden="true">→</span></span>
+          </a>
+          <a id="training" class="home-door" href="training.html">
+            <h3>Training</h3>
+            <p>Personal training con Matteo e il supporto dell’osteopata Mattia, in un unico percorso.</p>
+            <span class="home-more">Scopri il training <span aria-hidden="true">→</span></span>
+          </a>
+          <div class="home-door home-door-soon">
+            <span class="home-soon-label">In arrivo</span>
+            <h3>Nuove aree dello studio</h3>
+            <p>Rever cresce: presto nuovi ambiti e nuovi professionisti.</p>
+          </div>
+        </div>
       </div>
     </section>
-    <figure class="hero-photo">
-      <img src="images/reverstudio-hero.png" alt="Interno dello studio Rever" />
-    </figure>
-        <section id="formazione" class="block teaser"><div class="container"><p class="eyebrow">Formazione certificata CONI</p><h2>Corso PT 1° livello</h2><p class="lead">Un programma completo tra fisiologia, biomeccanica, programmazione e coaching.</p><a class="cta" href="formazione.html">Scopri il programma</a></div></section>
-    <section id="training" class="block teaser service-section"><div class="container"><p class="eyebrow">Il tuo percorso</p><h2>Personal Training</h2><p class="lead">Allenamenti personalizzati a cura di Matteo D’Uggento.</p><a class="cta" href="training.html">Scopri il training</a></div></section>
+
     <section id="salute" class="block teaser service-section" hidden><div class="container"><h2>Salute</h2><p class="lead">Contenuti in preparazione.</p></div></section>
     <section id="beauty" class="block teaser service-section" hidden><div class="container"><h2>Beauty</h2><p class="lead">Contenuti in preparazione.</p></div></section>
-    <section id="equipe" class="block teaser">
-      <div class="container">
-        <p class="eyebrow">Il team</p>
-        <h2>L'Equipe</h2>
-        <p class="lead">Professionisti dedicati al tuo benessere.</p>
-        <a class="cta" href="equipe.html">Scopri il team</a>
+
+    <section id="equipe" class="home-section home-team" aria-labelledby="equipe-title">
+      <div class="home-container">
+        <div class="home-team-layout">
+          <div>
+            <p class="eyebrow">L’equipe</p>
+            <h2 id="equipe-title">Professionisti diversi, una squadra unica.</h2>
+            <p class="home-team-lead">Competenze complementari, confronto continuo e un obiettivo comune: il tuo benessere a 360 gradi.</p>
+            <a class="home-secondary" href="equipe.html">Scopri tutta l’equipe <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="home-people">
+            <a class="home-person" href="equipe.html#matteo-name">
+              <img class="home-person-matteo" src="images/matteo-ritratto-barba.png" alt="" />
+              <span><strong>Matteo D’Uggento</strong><small>Titolare REVER · Personal Trainer</small><span class="home-more">Scopri il profilo <span aria-hidden="true">→</span></span></span>
+            </a>
+            <a class="home-person" href="equipe.html#mattia-name">
+              <img class="home-person-mattia" src="images/mattia-marinoni.jpg" alt="" />
+              <span><strong>Mattia Marinoni</strong><small>Osteopata</small><span class="home-more">Scopri il profilo <span aria-hidden="true">→</span></span></span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <section id="approfondimenti" class="block teaser service-section"><div class="container"><h2>Approfondimenti</h2><p class="lead">Contenuti in preparazione.</p></div></section>
+
+    <section id="contatti" class="home-section home-contact" aria-labelledby="contatti-title">
+      <div class="home-container">
+        <h2 id="contatti-title">Non sai da dove partire?</h2>
+        <p>Raccontaci cosa cerchi: ti indirizziamo verso il professionista giusto.</p>
+        <a class="cta" href="https://wa.me/39XXXXXXXXXX" target="_blank" rel="noopener">Scrivici su WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="approfondimenti" class="block teaser service-section" hidden><div class="container"><h2>Approfondimenti</h2><p class="lead">Contenuti in preparazione.</p></div></section>
   </main>
+
+  <footer class="home-footer">
+    <div class="home-container home-footer-layout">
+      <div>
+        <span class="brand-logo" role="img" aria-label="Rever"><img src="images/rever-wordmark.png" alt="" /></span>
+        <p>REVER Performance &amp; Wellness · Milano</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="formazione.html">Certificazione Coni</a>
+        <a href="training.html">Training</a>
+        <a href="equipe.html">Equipe</a>
+      </nav>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>

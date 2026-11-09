@@ -147,7 +147,7 @@ img { max-width: 100%; height: auto; }
   justify-content: center;
   text-align: center;
   padding: 6rem 16px 3rem;
-  background: var(--white);
+  background: var(--cream);
   color: var(--ink);
 }
 .hero-logo { width: min(420px, 80vw); height: auto; margin-bottom: 1.2rem; }
@@ -183,7 +183,7 @@ h1 {
   .hero { min-height: 78vh; padding: 7rem 20px 4rem; }
 }
 
-.formazione { padding: 4rem 16px 3rem; background: var(--white); }
+.formazione { padding: 4rem 16px 3rem; background: var(--cream); }
 .formazione .container { max-width: 900px; margin: 0 auto; }
 .formazione h2 {
   font-family: "Montserrat", sans-serif;
@@ -204,7 +204,7 @@ h1 {
 .formazione .punti strong { color: var(--black); }
 
 /* Pagina formazione */
-.page-hero { padding: 6rem 16px 2.5rem; text-align: center; background: var(--white); }
+.page-hero { padding: 6rem 16px 2.5rem; text-align: center; background: var(--cream); }
 .page-hero h1 { font-size: clamp(1.9rem, 6vw, 3.4rem); font-weight: 700; letter-spacing: -0.02em; }
 .programma { padding: 1.5rem 16px 4rem; background: var(--cream); }
 .programma .container { max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 2rem; }
@@ -251,7 +251,7 @@ h1 {
   line-height: 1.45;
   color: var(--ink);
 }
-.teaser { padding: 3rem 16px; text-align: center; background: var(--white); }
+.teaser { padding: 3rem 16px; text-align: center; background: var(--cream); }
 .teaser .container { max-width: 720px; margin: 0 auto; }
 .teaser h2 { font-size: clamp(1.6rem, 5vw, 2.4rem); font-weight: 700; margin: 0.4rem 0 0.7rem; }
 .teaser .lead { margin-bottom: 1.4rem; }
@@ -449,18 +449,17 @@ h1 {
 .training-coach:focus-visible, .training-profile-link:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
 .training-photo { border-radius: 1.3rem; overflow: hidden; background: #e8d5c4; }
 .training-photo img { display: block; width: 100%; height: auto; }
-.training-method { padding: clamp(3.5rem, 6vw, 6rem) 1rem; background: var(--white); }
+.training-method { padding: clamp(3.5rem, 6vw, 6rem) 1rem; background: var(--cream); }
 .training-container { max-width: 1200px; margin: 0 auto; }
 .training-section-heading { max-width: 730px; margin-bottom: 2rem; }
 .training-section-heading h2, .training-details h2 { font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -0.035em; line-height: 1.1; }
 .training-section-heading > p:last-child { color: var(--muted); margin-top: 1rem; line-height: 1.7; }
 .training-disciplines { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-.training-disciplines article { border: 1px solid var(--line); border-radius: 1rem; background: var(--cream); padding: clamp(1.3rem, 2.5vw, 2rem); min-height: 235px; }
+.training-disciplines article { border: 1px solid var(--line); border-radius: 1rem; background: var(--white); padding: clamp(1.3rem, 2.5vw, 2rem); min-height: 235px; }
 .training-number { display: block; color: var(--brown); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; margin-bottom: 2rem; }
 .training-disciplines h3 { font-size: clamp(1.1rem, 1.7vw, 1.35rem); line-height: 1.25; margin-bottom: 0.8rem; }
 .training-disciplines p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
 .training-details { padding: clamp(3.5rem, 6vw, 6rem) 1rem; }
-.training-integrated { background: var(--white); }
 .training-details-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 6rem); }
 .training-details-layout > div:last-child p { color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
 .training-profile-link { display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; }
@@ -524,3 +523,66 @@ h1 {
 .training-coaches { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
 .training-coaches .training-coach { margin-top: 0; }
 .training-coach-marinoni img { object-position: 50% 0%; }
+
+/* Homepage: porta d'ingresso alle aree dello studio. */
+.home { background: var(--cream); }
+.home-container { max-width: 1200px; margin: 0 auto; }
+.home-section { padding: clamp(3.5rem, 6vw, 6rem) 1rem; scroll-margin-top: 4rem; }
+.home-heading { margin-bottom: 2rem; }
+.home h2 { font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 700; letter-spacing: -0.035em; line-height: 1.1; }
+.home-hero { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; max-width: 1232px; margin: 0 auto; padding: clamp(3rem, 6vw, 5.5rem) 1rem; }
+.home-hero h1 { font-size: clamp(2.1rem, 4.9vw, 4.6rem); font-weight: 700; letter-spacing: -0.045em; line-height: 1.02; }
+.home-hero h1 span { display: block; }
+.home-lead { max-width: 34rem; margin-top: 1.5rem; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+.home-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem; margin-top: 2rem; }
+.home-secondary { color: var(--burgundy); font-size: 0.9rem; font-weight: 600; }
+.home-secondary:hover { text-decoration: underline; }
+.home-hero-photo { overflow: hidden; border-radius: 1.25rem; background: var(--black); aspect-ratio: 4 / 4.4; }
+.home-hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.home-areas-section { background: var(--cream); }
+.home-doors { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 1rem; }
+.home-door { display: flex; flex-direction: column; min-height: 230px; padding: clamp(1.4rem, 3vw, 2.4rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--white); color: var(--ink); scroll-margin-top: 5rem; transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), background-color 0.2s var(--ease); }
+a.home-door:hover { border-color: var(--burgundy); box-shadow: 0 4px 16px rgba(17, 17, 17, 0.06); }
+.home-door h3 { font-size: clamp(1.5rem, 2.6vw, 2.2rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 0.7rem; }
+.home-door p { max-width: 32rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.4rem; }
+.home-more { margin-top: auto; color: var(--burgundy); font-size: 0.88rem; font-weight: 600; }
+a.home-door:hover .home-more, .home-person:hover .home-more { text-decoration: underline; }
+.home-door-featured { grid-row: span 2; background: var(--burgundy); border-color: var(--burgundy); color: var(--white); }
+a.home-door-featured:hover { background: var(--burgundy-dark); border-color: var(--burgundy-dark); }
+.home-door-featured p { color: rgba(255, 255, 255, 0.88); font-size: 1.05rem; }
+.home-door-featured h3 { font-size: clamp(2rem, 4vw, 3.4rem); }
+.home-door-featured .home-more { color: var(--white); }
+.home-badge { align-self: flex-start; margin-bottom: clamp(2rem, 6vw, 4.5rem); padding: 0.4rem 0.8rem; border-radius: 999px; background: var(--white); color: var(--burgundy); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.home-facts { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 2rem; padding: 0; list-style: none; }
+.home-facts li { padding: 0.35rem 0.75rem; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 999px; font-size: 0.82rem; }
+.home-door-soon { min-height: 0; border-style: dashed; border-color: rgba(17, 17, 17, 0.25); background: transparent; }
+.home-door-soon h3 { font-size: clamp(1.15rem, 1.8vw, 1.4rem); letter-spacing: -0.01em; }
+.home-door-soon p { margin-bottom: 0; }
+.home-soon-label { margin-bottom: 0.7rem; color: var(--muted); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; }
+.home-team-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 7vw, 6rem); align-items: center; }
+.home-team-lead { margin: 1.2rem 0 1.4rem; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+.home-people { display: grid; gap: 1rem; }
+.home-person { display: flex; align-items: center; gap: clamp(1rem, 2.5vw, 1.6rem); padding: clamp(1rem, 2vw, 1.4rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--white); color: var(--ink); transition: border-color 0.2s var(--ease); }
+.home-person:hover { border-color: var(--burgundy); }
+.home-person img { flex: none; width: clamp(84px, 9vw, 116px); height: clamp(84px, 9vw, 116px); border-radius: 50%; object-fit: cover; }
+.home-person-matteo { object-position: 50% 35%; }
+.home-person-mattia { object-position: 50% 0%; }
+.home-person strong, .home-person small { display: block; }
+.home-person strong { font-size: clamp(1.05rem, 1.8vw, 1.35rem); }
+.home-person small { margin: 0.25rem 0 0.7rem; color: var(--muted); font-size: 0.82rem; }
+.home-contact { background: var(--cream); text-align: center; }
+.home-contact p { margin: 1rem 0 1.8rem; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+.home-footer { padding: 2.5rem 1rem; border-top: 1px solid var(--line); background: var(--cream); }
+.home-footer-layout { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.home-footer p { margin-top: 0.6rem; color: var(--muted); font-size: 0.82rem; }
+.home-footer nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: 0.85rem; font-weight: 500; }
+.home-footer nav a:hover { color: var(--burgundy); }
+.home-secondary:focus-visible, a.home-door:focus-visible, .home-person:focus-visible, .home-footer a:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
+@media (max-width: 860px) {
+  .home-hero, .home-doors, .home-team-layout { grid-template-columns: minmax(0, 1fr); }
+  .home-hero h1 { font-size: clamp(2.1rem, 9.4vw, 4.4rem); }
+  .home-hero-photo { aspect-ratio: 4 / 3; }
+  .home-door { min-height: 0; }
+  .home-door-featured { grid-row: auto; }
+  .home-badge { margin-bottom: 1.6rem; }
+}
