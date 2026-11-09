@@ -430,7 +430,7 @@ h1 {
 .course-trainer strong { display: block; font-size: 0.88rem; }
 .course-trainer:hover strong { color: var(--burgundy); text-decoration: underline; }
 .course-trainer:focus-visible { outline: 3px solid var(--burgundy); outline-offset: 4px; }
-#matteo-name { scroll-margin-top: 5rem; }
+#matteo-name, #mattia-name { scroll-margin-top: 5rem; }
 
 /* Pagina personal training */
 .training-page { background: var(--cream); }
@@ -460,6 +460,7 @@ h1 {
 .training-disciplines h3 { font-size: clamp(1.1rem, 1.7vw, 1.35rem); line-height: 1.25; margin-bottom: 0.8rem; }
 .training-disciplines p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
 .training-details { padding: clamp(3.5rem, 6vw, 6rem) 1rem; }
+.training-integrated { background: var(--white); }
 .training-details-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 6rem); }
 .training-details-layout > div:last-child p { color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
 .training-profile-link { display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; }
@@ -518,3 +519,8 @@ h1 {
 .pdf-dialog-body { overflow-y: auto; min-height: 200px; overflow-anchor: none; }
 .pdf-dialog-body canvas { display: block; width: 100%; height: auto; }
 .pdf-dialog-status { padding: 2rem; text-align: center; }
+
+/* Schede dei professionisti nella pagina Training. */
+.training-coaches { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
+.training-coaches .training-coach { margin-top: 0; }
+.training-coach-marinoni img { object-position: 50% 0%; }
