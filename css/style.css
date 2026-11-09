@@ -541,7 +541,7 @@ h1 {
 .home-hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .home-areas-section { background: var(--cream); }
 .home-doors { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 1rem; }
-.home-door { display: flex; flex-direction: column; min-height: 230px; padding: clamp(1.4rem, 3vw, 2.4rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--white); color: var(--ink); scroll-margin-top: 5rem; transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), background-color 0.2s var(--ease); }
+.home-door { display: flex; flex-direction: column; min-height: 230px; padding: clamp(1.4rem, 3vw, 2.4rem); border: 1px solid var(--line); border-radius: 1rem; background: transparent; color: var(--ink); scroll-margin-top: 5rem; transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), background-color 0.2s var(--ease); }
 a.home-door:hover { border-color: var(--burgundy); box-shadow: 0 4px 16px rgba(17, 17, 17, 0.06); }
 .home-door h3 { font-size: clamp(1.5rem, 2.6vw, 2.2rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 0.7rem; }
 .home-door p { max-width: 32rem; color: var(--muted); line-height: 1.65; margin-bottom: 1.4rem; }
