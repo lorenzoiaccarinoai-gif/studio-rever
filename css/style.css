@@ -511,7 +511,9 @@ h1 {
 .pdf-dialog::backdrop { background: rgba(0, 0, 0, 0.7); }
 .pdf-dialog-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.7rem 0.8rem 0.7rem 1.1rem; border-bottom: 1px solid var(--line); }
 .pdf-dialog-title { font-size: 0.9rem; font-weight: 600; }
-.pdf-dialog-close { flex: none; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.pdf-dialog-close { flex: none; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; transition: background-color 0.2s var(--ease), border-color 0.2s var(--ease), color 0.2s var(--ease); }
+.pdf-dialog-close:hover { background: var(--burgundy); border-color: var(--burgundy); color: var(--white); }
+.pdf-dialog-close:active { background: var(--burgundy-dark); border-color: var(--burgundy-dark); color: var(--white); }
 .pdf-dialog-body { overflow-y: auto; min-height: 200px; overflow-anchor: none; }
 .pdf-dialog-body canvas { display: block; width: 100%; height: auto; }
 .pdf-dialog-status { padding: 2rem; text-align: center; }

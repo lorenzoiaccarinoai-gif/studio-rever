@@ -68,7 +68,7 @@ if (toggle && mobile) {
   function open(link) {
     var run = ++currentRun;
     clearPages();
-    title.textContent = link.textContent.trim();
+    title.textContent = link.dataset.pdfTitle || link.textContent.trim();
     status.textContent = 'Caricamento del documento…';
     status.hidden = false;
     dialog.setAttribute('aria-label', title.textContent);
