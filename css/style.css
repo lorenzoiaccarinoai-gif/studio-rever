@@ -508,6 +508,7 @@ h1 {
 /* Visualizzatore PDF nella pagina. */
 .pdf-dialog { margin: auto; width: min(760px, 94vw); max-height: 92vh; max-height: 92dvh; padding: 0; border: 0; border-radius: 1rem; background: var(--cream); color: var(--ink); overflow: hidden; }
 .pdf-dialog[open] { display: flex; flex-direction: column; }
+.pdf-dialog:focus { outline: none; }
 .pdf-dialog::backdrop { background: rgba(0, 0, 0, 0.7); }
 .pdf-dialog-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.7rem 0.8rem 0.7rem 1.1rem; border-bottom: 1px solid var(--line); }
 .pdf-dialog-title { font-size: 0.9rem; font-weight: 600; }

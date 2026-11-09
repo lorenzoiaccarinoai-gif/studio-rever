@@ -51,6 +51,7 @@ if (toggle && mobile) {
 
   var dialog = document.createElement('dialog');
   dialog.className = 'pdf-dialog';
+  dialog.tabIndex = -1;
   dialog.innerHTML = '<div class="pdf-dialog-bar"><strong class="pdf-dialog-title"></strong>' +
     '<button type="button" class="pdf-dialog-close" aria-label="Chiudi">&times;</button></div>' +
     '<div class="pdf-dialog-body"><p class="pdf-dialog-status" role="status"></p></div>';
@@ -73,6 +74,7 @@ if (toggle && mobile) {
     status.hidden = false;
     dialog.setAttribute('aria-label', title.textContent);
     dialog.showModal();
+    dialog.focus();
 
     loadLibrary().then(function (pdfjsLib) {
       return pdfjsLib.getDocument(link.href).promise;
