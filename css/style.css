@@ -619,3 +619,4 @@ a.home-door-featured:hover { background: var(--burgundy-dark); border-color: var
 /* Spaziatura interna uniforme: etichetta → titolo 1rem, titolo → paragrafo 1.5rem. */
 main .eyebrow { margin-bottom: 1rem; }
 main :is(h1, h2) + p:not(#_) { margin-top: 1.5rem; }
+.home-hero .home-lead:not(#_) { margin-top: auto; }
